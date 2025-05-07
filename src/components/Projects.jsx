@@ -5,21 +5,21 @@ const projects = [
   {
     title: "Chile Mining",
     description: "Sitio informativo creado con HTML, CSS y JavaScript.",
-    image: "/images/chile-mining.png",
+    image: `${import.meta.env.BASE_URL}images/chile-mining.png`,
     url: "https://nosoy44.github.io/chile-mining/",
     tech: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Final Project",
     description: "Proyecto de presentación usando Bootstrap, WordPress y JS.",
-    image: "/images/final-project.png",
+    image: `${import.meta.env.BASE_URL}images/final-project.png`,
     url: "https://efrmunoz.laboratoriodiseno.cl/final-proyect/",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "WordPress"],
   },
   {
     title: "Digital Docu Ordenia",
     description: "Plataforma con enfoque en IA utilizando OpenAI.",
-    image: "/images/digital-docu.png",
+    image: `${import.meta.env.BASE_URL}images/digital-docu.png`,
     url: "https://www.digitaldocu.site/ordenia/auth/login.html",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "OpenAI"],
   },
@@ -40,7 +40,7 @@ export default function ProjectsSection() {
       style={{
         backgroundColor: "var(--color-dark)",
         color: "var(--text-main)",
-        backgroundImage: "url('/patterns/grid-light.svg')",
+        backgroundImage: `url(${import.meta.env.BASE_URL}patterns/grid-light.svg)`,
         backgroundSize: "400px 400px", // tamaño de cuadrícula
         backgroundRepeat: "repeat",
         backgroundPosition: `center ${offsetY * 0.2}px`, // aquí animamos

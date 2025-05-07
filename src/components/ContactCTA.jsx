@@ -12,7 +12,7 @@ export default function ContactCTA() {
       {/* Ícono decorativo de fondo */}
       <div className="absolute inset-0 opacity-5 pointer-events-none flex justify-end items-end p-10">
         <img
-          src="/icons/message-decor.svg" // aquí un SVG decorativo simple (como sobre o globo de chat)
+          src={`${import.meta.env.BASE_URL}icons/message-decor.svg`}
           alt=""
           className="w-32 h-32 md:w-48 md:h-48 object-contain"
         />

@@ -32,7 +32,7 @@ export default function AboutPreview() {
         {/* Imagen */}
         <div className="flex justify-center">
           <img
-            src="/images/efrenMunoz.jpg"
+            src={`${import.meta.env.BASE_URL}images/efrenMunoz.jpg`}
             alt="Foto de perfil"
             className="rounded-2xl shadow-lg w-full max-w-xs md:max-w-sm object-cover"
             style={{ height: "600px", objectPosition: "top" }}

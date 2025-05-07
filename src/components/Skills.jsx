@@ -3,12 +3,12 @@ import { useEffect, useState, useRef } from "react";
 
 export default function Skills() {
   const skills = [
-    { name: "HTML5", icon: "/icons/HTML5.svg", experience: 5 },
-    { name: "CSS3", icon: "/icons/CSS3.svg", experience: 3 },
-    { name: "JavaScript", icon: "/icons/JavaScript.svg", experience: 3 },
-    { name: "PHP", icon: "/icons/PHP.svg", experience: 5 },
-    { name: "MySQL", icon: "/icons/MySQL.svg", experience: 5 },
-    { name: "Figma", icon: "/icons/Figma.svg", experience: 2 },
+    { name: "HTML5", icon: `${import.meta.env.BASE_URL}icons/HTML5.svg`, experience: 5 },
+    { name: "CSS3", icon: `${import.meta.env.BASE_URL}icons/CSS3.svg`, experience: 3 },
+    { name: "JavaScript", icon: `${import.meta.env.BASE_URL}icons/JavaScript.svg`, experience: 3 },
+    { name: "PHP", icon: `${import.meta.env.BASE_URL}icons/PHP.svg`, experience: 5 },
+    { name: "MySQL", icon: `${import.meta.env.BASE_URL}icons/MySQL.svg`, experience: 5 },
+    { name: "Figma", icon: `${import.meta.env.BASE_URL}icons/Figma.svg`, experience: 2 },
   ];
 
   const ref = useRef(null);
