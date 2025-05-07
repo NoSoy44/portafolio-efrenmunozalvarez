@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+/* 🎨 Variables globales de color y tipografía */
+  :root {
+    /* === Colores Base === */
+    --color-dark: #022f40;         /* Fondo principal oscuro (ej: secciones hero, footer, navbar oscuro) */
+    --bg-light: #F1F5F9;           /* Fondo claro para secciones suaves y contrastadas */
+  
+    /* === Colores de Marca === */
+    --color-primary: #38aecc;      /* Color primario, ideal para títulos, botones y elementos destacados */
+    --color-accent: #0090c1;       /* Hover o estado activo para botones o links (más vibrante que el primario) */
+  
+    /* === Colores de Texto === */
+    --text-main: #F1F5F9;          /* Texto principal en fondo oscuro */
+    --text-dark: #0F172A;          /* Texto principal en fondo claro */
+    --text-secondary: #64748B; /* azul grisáceo más fuerte */
+  
+  
+
+
+  
+      /* ✍️ Tipografía */
+      --font-heading: 'Poppins', sans-serif;
+      --font-body: 'Roboto', sans-serif;
+  
+      /* 📏 Tamaños de texto base */
+      --text-xl: 1.25rem;
+      --text-2xl: 1.5rem;
+      --text-3xl: 1.875rem;
+      --text-4xl: 2.25rem;
+      --text-5xl: 3rem;
+    }
+  
+    body {
+      background-color: var(--color-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+    }
+  
+    h1, h2, h3 {
+      font-family: var(--font-heading);
+    }
+  }
+
+  
