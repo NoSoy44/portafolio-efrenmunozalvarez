@@ -1,4 +1,7 @@
+import ProjectsSection from "../components/ProjectsSection"
+
 function Portafolio() {
-    return <h2 className="text-2xl font-semibold">Mis Proyectos</h2>
-  }
-  export default Portafolio
+  return <ProjectsSection />
+}
+
+export default Portafolio
