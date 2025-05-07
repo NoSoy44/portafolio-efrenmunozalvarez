@@ -16,7 +16,7 @@ export default function Hero() {
       style={{
         backgroundColor: "var(--color-dark)",
         color: "var(--text-main)",
-        backgroundImage: "url('/patterns/grid-light.svg')",
+        backgroundImage: `url(${import.meta.env.BASE_URL}patterns/grid-light.svg)`,
         backgroundSize: "400px 400px", // tamaño de cuadrícula
         backgroundRepeat: "repeat",
         backgroundPosition: `center ${offsetY * 0.2}px`, // aquí animamos
