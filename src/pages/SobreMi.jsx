@@ -1,7 +1,15 @@
-import SobreMiSection from "../components/AboutPreview"
+import AboutIntro from "../components/about/AboutIntro";
+import AboutJourney from "../components/about/AboutJourney";
+import StackSummary from "../components/portfolio/StackSummary";
+import SoftSkills from "../components/about/SoftSkills";
 
-function SobreMi() {
-  return <SobreMiSection />
+export default function SobreMi() {
+  return (
+    <>
+      <AboutIntro />
+      <StackSummary />
+      <AboutJourney />
+      <SoftSkills />
+    </>
+  );
 }
-
-export default SobreMi

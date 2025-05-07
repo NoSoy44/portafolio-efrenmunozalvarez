@@ -33,18 +33,17 @@ export default function Hero() {
           className="text-4xl md:text-6xl font-extrabold mb-4"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          Hola, soy <span style={{ color: "var(--color-primary)" }}>Efrén</span> 👋
+          Hola, soy <span style={{ color: "var(--color-primary)" }}>Efren</span> 👋
         </h1>
 
         <p
           className="text-lg md:text-xl max-w-xl mb-6"
           style={{
-            color: "var(--text-secondary)",
+            color: "var( --text-main)",
             fontFamily: "var(--font-body)",
           }}
         >
-          Desarrollador web apasionado por crear experiencias digitales atractivas
-          y funcionales usando tecnología moderna.
+          Soy analista programador con una fuerte pasión por el diseño UX/UI. Me especializo en crear experiencias web modernas, funcionales y centradas en el usuario, utilizando tecnologías de última generación e inteligencia artificial.
         </p>
 
         <div className="flex gap-4 justify-center">

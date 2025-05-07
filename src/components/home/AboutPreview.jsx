@@ -41,33 +41,21 @@ export default function AboutPreview() {
 
         {/* Texto */}
         <div className="text-center md:text-left">
-          <p
-            className="text-base md:text-lg mb-6 leading-relaxed"
-            style={{
-              fontFamily: "var(--font-body)",
-              color: "var(--text-dark)",
-            }}
-          >
-            Soy un desarrollador web apasionado por entender el “cómo” detrás de
-            cada experiencia digital. Mi formación como Analista Programador
-            Computacional me entregó una base sólida en backend, pero mi
-            curiosidad me llevó a especializarme en desarrollo web completo.
-            <br />
-            <br />
-            Disfruto especialmente programar y resolver problemas, buscando que
-            cada proyecto sea funcional, moderno y accesible. Me gusta trabajar
-            con PHP, HTML, JavaScript y explorar nuevas tecnologías como React y
-            Tailwind.
-            <br />
-            <br />
-            Uno de mis mayores logros es <strong>Orden-AI</strong>, una plataforma
-            desarrollada junto a mi jefa, donde combinamos IA y diseño web para
-            crear una interfaz atractiva y real.
-            <br />
-            <br />
-            Soy comprometido, adaptable y siempre curioso, dispuesto a enfrentar
-            nuevos desafíos.
-          </p>
+        <p
+  className="text-base md:text-lg mb-6 leading-relaxed"
+  style={{
+    fontFamily: "var(--font-body)",
+    color: "var(--text-dark)",
+  }}
+>
+  Soy Efren Muñoz, analista programador de 28 años, apasionado por el desarrollo web completo.
+  Desde joven me fascinó entender cómo funcionan las páginas web, lo que me llevó a especializarme
+  tanto en backend como en diseño UX/UI.  
+  <br />
+  <br />
+  Trabajo con tecnologías como HTML, JavaScript, React y Tailwind, y me entusiasma integrar soluciones con IA.
+  Me defino como responsable, curioso y siempre listo para nuevos desafíos.
+</p>
 
           <a
             href="/sobre-mi"

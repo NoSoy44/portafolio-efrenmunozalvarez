@@ -4,11 +4,15 @@ import Portafolio from './pages/Portafolio'
 import SobreMi from './pages/SobreMi'
 import Contacto from './pages/Contacto'
 import Navbar from './components/Navbar'
+import ScrollProgress from './components/ScrollProgress' // ← Importa el componente
 import './App.css'
 
 function App() {
   return (
     <Router>
+      {/* Barra de progreso del scroll */}
+      <ScrollProgress />
+
       <div className="min-h-screen bg-gray-100 text-gray-900">
         <Navbar />
         <div className="p-6">

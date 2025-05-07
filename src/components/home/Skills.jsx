@@ -10,7 +10,7 @@ export default function Skills() {
     { name: "MySQL", icon: `${import.meta.env.BASE_URL}icons/MySQL.svg`, experience: 5 },
     { name: "Figma", icon: `${import.meta.env.BASE_URL}icons/Figma.svg`, experience: 2 },
   ];
-
+  
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 

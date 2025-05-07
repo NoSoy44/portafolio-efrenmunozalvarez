@@ -1,15 +1,16 @@
 @import "tailwindcss";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 @layer base {
 /* 🎨 Variables globales de color y tipografía */
   :root {
     /* === Colores Base === */
-    --color-dark: #022f40;         /* Fondo principal oscuro (ej: secciones hero, footer, navbar oscuro) */
+    --color-dark: #022f40;         /* Fondo principal oscuro */
     --bg-light: #F1F5F9;           /* Fondo claro para secciones suaves y contrastadas */
   
     /* === Colores de Marca === */
-    --color-primary: #38aecc;      /* Color primario, ideal para títulos, botones y elementos destacados */
-    --color-accent: #0090c1;       /* Hover o estado activo para botones o links (más vibrante que el primario) */
+    --color-primary: #38aecc;      /* Color primario*/
+    --color-accent: #0090c1;       /* Hover */
   
     /* === Colores de Texto === */
     --text-main: #F1F5F9;          /* Texto principal en fondo oscuro */
