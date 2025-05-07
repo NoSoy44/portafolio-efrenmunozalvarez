@@ -1,4 +1,4 @@
-import ContactoForm from "../components/ContactoForm"
+import ContactoForm from "../components/ContactCTA"
 
 function Contacto() {
   return <ContactoForm />

@@ -1,4 +1,4 @@
-import SobreMiSection from "../components/SobreMiSection"
+import SobreMiSection from "../components/AboutPreview"
 
 function SobreMi() {
   return <SobreMiSection />

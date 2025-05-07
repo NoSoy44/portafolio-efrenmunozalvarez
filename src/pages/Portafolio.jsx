@@ -1,4 +1,4 @@
-import ProjectsSection from "../components/ProjectsSection"
+import ProjectsSection from "../components/Projects"
 
 function Portafolio() {
   return <ProjectsSection />
