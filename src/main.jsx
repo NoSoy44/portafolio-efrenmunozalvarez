@@ -11,18 +11,23 @@ import SobreMi from './pages/SobreMi'
 import Portafolio from './pages/Portafolio'
 import Contacto from './pages/Contacto'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        { path: '/', element: <Home /> },
+        { path: '/sobre-mi', element: <SobreMi /> },
+        { path: '/portafolio', element: <Portafolio /> },
+        { path: '/contacto', element: <Contacto /> },
+      ],
+    },
+  ],
   {
-    path: '/',
-    element: <Layout />,
-    children: [
-      { path: '/', element: <Home /> },
-      { path: '/sobre-mi', element: <SobreMi /> },
-      { path: '/portafolio', element: <Portafolio /> },
-      { path: '/contacto', element: <Contacto /> },
-    ],
-  },
-])
+    basename: '/portafolio-efrenmunozalvarez', // 👈 el nombre exacto de tu repo en GitHub
+  }
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
