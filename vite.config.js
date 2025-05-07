@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/portafolio-efrenmunozalvarezTesting/', // 👈 nombre exacto del repo
+  base: '/portafolio-efrenmunozalvarez/', // ← esto debe coincidir con el nombre del repo
   plugins: [
     tailwindcss(),
     react()
